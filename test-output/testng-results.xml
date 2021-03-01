@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-01T23:48:38Z" name="crm pom" finished-at="2021-03-01T23:49:14Z" duration-ms="35307">
+  <suite started-at="2021-03-01T23:08:20Z" name="Default suite" finished-at="2021-03-01T23:08:54Z" duration-ms="34900">
     <groups>
     </groups>
-    <test started-at="2021-03-01T23:48:38Z" name="TestCRM" finished-at="2021-03-01T23:49:14Z" duration-ms="35307">
+    <test started-at="2021-03-01T23:08:20Z" name="Default test" finished-at="2021-03-01T23:08:54Z" duration-ms="34900">
       <class name="com.rev.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:48:38Z" name="setUp" finished-at="2021-03-02T10:48:49Z" duration-ms="10885" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:20Z" name="setUp" finished-at="2021-03-02T10:08:29Z" duration-ms="9947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserNameLabelTest()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:48:49Z" name="verifyUserNameLabelTest" finished-at="2021-03-02T10:48:49Z" duration-ms="131" status="PASS">
+        <test-method signature="verifyUserNameLabelTest()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:29Z" name="verifyUserNameLabelTest" finished-at="2021-03-02T10:08:30Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserNameLabelTest -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:48:49Z" name="teatDown" finished-at="2021-03-02T10:48:49Z" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:30Z" name="teatDown" finished-at="2021-03-02T10:08:30Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:48:49Z" name="setUp" finished-at="2021-03-02T10:48:59Z" duration-ms="9559" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:30Z" name="setUp" finished-at="2021-03-02T10:08:39Z" duration-ms="9688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnContactsPageTest()[pri:1, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:48:59Z" name="clickOnContactsPageTest" finished-at="2021-03-02T10:49:01Z" duration-ms="2526" status="PASS">
+        <test-method signature="clickOnContactsPageTest()[pri:1, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:39Z" name="clickOnContactsPageTest" finished-at="2021-03-02T10:08:42Z" duration-ms="2806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnContactsPageTest -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:49:01Z" name="teatDown" finished-at="2021-03-02T10:49:01Z" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:42Z" name="teatDown" finished-at="2021-03-02T10:08:42Z" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:49:01Z" name="setUp" finished-at="2021-03-02T10:49:11Z" duration-ms="9399" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:42Z" name="setUp" finished-at="2021-03-02T10:08:52Z" duration-ms="9698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectContact()[pri:2, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:49:11Z" name="selectContact" finished-at="2021-03-02T10:49:13Z" duration-ms="2533" status="FAIL">
+        <test-method signature="selectContact()[pri:2, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:52Z" name="selectContact" finished-at="2021-03-02T10:08:54Z" duration-ms="2340" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Aakash Anmash']//parent::td[@class='datalistrow']//preceding-sibling::td[@align='left']//input[@type='checkbox']"}
@@ -44,8 +44,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-MTO5U5N3', ip: '10.0.0.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f19f96fdc04eff9e19031087b8ed498d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64266}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 001758989cd43c4d01bcbd325def34db
 *** Element info: {Using=xpath, value=//a[text()='Aakash Anmash']//parent::td[@class='datalistrow']//preceding-sibling::td[@align='left']//input[@type='checkbox']}]]>
             </message>
             <full-stacktrace>
@@ -55,8 +55,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-MTO5U5N3', ip: '10.0.0.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f19f96fdc04eff9e19031087b8ed498d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64266}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 001758989cd43c4d01bcbd325def34db
 *** Element info: {Using=xpath, value=//a[text()='Aakash Anmash']//parent::td[@class='datalistrow']//preceding-sibling::td[@align='left']//input[@type='checkbox']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -112,11 +112,11 @@ Session ID: f19f96fdc04eff9e19031087b8ed498d
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectContact -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:49:13Z" name="teatDown" finished-at="2021-03-02T10:49:14Z" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:08:54Z" name="teatDown" finished-at="2021-03-02T10:08:54Z" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.rev.testcases.HomePageTest -->
-    </test> <!-- TestCRM -->
-  </suite> <!-- crm pom -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
