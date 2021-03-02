@@ -28,6 +28,7 @@ public class HomePageTest extends Base {
 		loginPage = new LoginPage();
 
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		System.out.println("Logged in successfully")
 
 	}
 
