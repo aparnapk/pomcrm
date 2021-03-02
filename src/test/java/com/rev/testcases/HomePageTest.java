@@ -21,6 +21,7 @@ public class HomePageTest extends Base {
 		super();
 	}
 
+//this method runs before each test 
 	@BeforeMethod
 	public void setUp() {
 		initialization();
