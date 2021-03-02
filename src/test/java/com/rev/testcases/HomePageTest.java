@@ -21,7 +21,7 @@ public class HomePageTest extends Base {
 		super();
 	}
 
-	// this method runs before each test in local
+	// this method runs before each test in local repository
 
 	@BeforeMethod
 	public void setUp() {
