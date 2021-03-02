@@ -21,14 +21,17 @@ public class HomePageTest extends Base {
 		super();
 	}
 
-//this method runs before each test in local
+	// this method runs before each test in local
+
 	@BeforeMethod
 	public void setUp() {
 		initialization();
 		loginPage = new LoginPage();
 
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		System.out.println("Logged in local");
+
+		System.out.println("Logged in successfully");
+
 	}
 
 	@Test(priority = 0)
