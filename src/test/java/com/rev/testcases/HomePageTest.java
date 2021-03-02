@@ -21,7 +21,7 @@ public class HomePageTest extends Base {
 		super();
 	}
 
-//this method runs before each test in remote master
+//this method runs before each test in the  master of remote branch
 	@BeforeMethod
 	public void setUp() {
 		initialization();
