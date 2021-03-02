@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-01T23:55:14Z" name="Default suite" finished-at="2021-03-01T23:55:49Z" duration-ms="35141">
+  <suite started-at="2021-03-02T06:50:54Z" name="PomCrm" finished-at="2021-03-02T06:51:53Z" duration-ms="59004">
     <groups>
     </groups>
-    <test started-at="2021-03-01T23:55:14Z" name="Default test" finished-at="2021-03-01T23:55:49Z" duration-ms="35141">
+    <test started-at="2021-03-02T06:50:54Z" name="TestCRM" finished-at="2021-03-02T06:51:53Z" duration-ms="59004">
       <class name="com.rev.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:14Z" name="setUp" finished-at="2021-03-02T10:55:24Z" duration-ms="10087" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:50:54Z" name="setUp" finished-at="2021-03-02T17:51:05Z" duration-ms="10634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserNameLabelTest()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:24Z" name="verifyUserNameLabelTest" finished-at="2021-03-02T10:55:24Z" duration-ms="140" status="PASS">
+        <test-method signature="verifyUserNameLabelTest()[pri:0, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:51:05Z" name="verifyUserNameLabelTest" finished-at="2021-03-02T17:51:05Z" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserNameLabelTest -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:24Z" name="teatDown" finished-at="2021-03-02T10:55:24Z" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:51:05Z" name="teatDown" finished-at="2021-03-02T17:51:05Z" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:24Z" name="setUp" finished-at="2021-03-02T10:55:34Z" duration-ms="9702" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:51:15Z" name="setUp" finished-at="2021-03-02T17:51:24Z" duration-ms="9391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnContactsPageTest()[pri:1, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:34Z" name="clickOnContactsPageTest" finished-at="2021-03-02T10:55:36Z" duration-ms="2782" status="PASS">
+        <test-method signature="clickOnContactsPageTest()[pri:1, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:51:24Z" name="clickOnContactsPageTest" finished-at="2021-03-02T17:51:26Z" duration-ms="2350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnContactsPageTest -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:36Z" name="teatDown" finished-at="2021-03-02T10:55:36Z" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:51:26Z" name="teatDown" finished-at="2021-03-02T17:51:26Z" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:36Z" name="setUp" finished-at="2021-03-02T10:55:46Z" duration-ms="9730" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:51:32Z" name="setUp" finished-at="2021-03-02T17:51:42Z" duration-ms="9696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectContact()[pri:2, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:46Z" name="selectContact" finished-at="2021-03-02T10:55:49Z" duration-ms="2396" status="FAIL">
+        <test-method signature="selectContact()[pri:2, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:51:42Z" name="selectContact" finished-at="2021-03-02T17:51:44Z" duration-ms="2002" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Aakash Anmash']//parent::td[@class='datalistrow']//preceding-sibling::td[@align='left']//input[@type='checkbox']"}
@@ -44,8 +44,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-MTO5U5N3', ip: '10.0.0.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b3d6aa3a79bb44680f6625449e0ea770
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4763374eea65f30bf68f5ede66a9a22a
 *** Element info: {Using=xpath, value=//a[text()='Aakash Anmash']//parent::td[@class='datalistrow']//preceding-sibling::td[@align='left']//input[@type='checkbox']}]]>
             </message>
             <full-stacktrace>
@@ -55,8 +55,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-MTO5U5N3', ip: '10.0.0.249', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b3d6aa3a79bb44680f6625449e0ea770
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4763374eea65f30bf68f5ede66a9a22a
 *** Element info: {Using=xpath, value=//a[text()='Aakash Anmash']//parent::td[@class='datalistrow']//preceding-sibling::td[@align='left']//input[@type='checkbox']}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -72,15 +72,14 @@ Session ID: b3d6aa3a79bb44680f6625449e0ea770
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
 	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at com.rev.pages.ContactsPage.selectContacts(ContactsPage.java:34)
-	at com.rev.testcases.HomePageTest.selectContact(HomePageTest.java:46)
+	at com.rev.testcases.HomePageTest.selectContact(HomePageTest.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,11 +111,49 @@ Session ID: b3d6aa3a79bb44680f6625449e0ea770
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectContact -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@399c4be1]" started-at="2021-03-02T10:55:49Z" name="teatDown" finished-at="2021-03-02T10:55:49Z" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.rev.testcases.HomePageTest@7ee8290b]" started-at="2021-03-02T17:51:44Z" name="teatDown" finished-at="2021-03-02T17:51:44Z" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.rev.testcases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.rev.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:05Z" name="setUp" finished-at="2021-03-02T17:51:10Z" duration-ms="5287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateImageTest()[pri:0, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:10Z" name="validateImageTest" finished-at="2021-03-02T17:51:11Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:11Z" name="tearDown" finished-at="2021-03-02T17:51:15Z" duration-ms="4077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:26Z" name="setUp" finished-at="2021-03-02T17:51:32Z" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitleTest()[pri:1, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:32Z" name="validateTitleTest" finished-at="2021-03-02T17:51:32Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:32Z" name="tearDown" finished-at="2021-03-02T17:51:32Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:44Z" name="setUp" finished-at="2021-03-02T17:51:49Z" duration-ms="5225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest()[pri:2, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:49Z" name="validateLoginTest" finished-at="2021-03-02T17:51:53Z" duration-ms="4359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rev.testcases.LoginPageTest@1f59a598]" started-at="2021-03-02T17:51:53Z" name="tearDown" finished-at="2021-03-02T17:51:53Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rev.testcases.LoginPageTest -->
+    </test> <!-- TestCRM -->
+  </suite> <!-- PomCrm -->
 </testng-results>
